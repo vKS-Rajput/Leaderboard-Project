@@ -5,11 +5,7 @@ import Leaderboard from "./components/Leaderboard";
 import History from "./components/History";
 import socket from "./Socket";
 
-/**
- * Mobile‑first & centered version of the Galactic Leaderboard app.
- * All layouts, paddings and font sizes are tuned so the UI fits neatly on small screens (≤ 640 px).
- * Larger viewports will see the same single‑column layout centred in the middle of the screen.
- */
+
 export default function App() {
   const [selectedUser, setSelectedUser] = useState("");
   const [refreshToggle, setRefreshToggle] = useState(false);

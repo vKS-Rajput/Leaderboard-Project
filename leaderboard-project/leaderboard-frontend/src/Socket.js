@@ -1,4 +1,4 @@
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:5000'); // backend address
+const socket = io('https://leaderboard-project-alpha.vercel.app/'); // backend address
 export default socket;
